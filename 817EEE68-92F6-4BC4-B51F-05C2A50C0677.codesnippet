@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>HYCode_TopLine</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIImageView *)hTopLineImageView
+{
+    if (_hTopLineImageView == nil) {
+        _hTopLineImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0, SCREEN_WIDTH, .5)];
+        [_hTopLineImageView setBackgroundColor:hColorF1F1F1];
+        
+    }
+    return _hTopLineImageView;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>817EEE68-92F6-4BC4-B51F-05C2A50C0677</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>HYCode_TopLine</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>HY_TopLine</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

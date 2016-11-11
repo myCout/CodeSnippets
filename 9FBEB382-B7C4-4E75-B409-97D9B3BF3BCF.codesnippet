@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>HYCode_initUI</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#type#&gt;)&lt;#name#&gt;{
+    if(&lt;#name#&gt;){
+        &lt;#name#&gt; = [[&lt;#type#&gt; alloc] initWithFrame:CGRectMake(&lt;#float#&gt;, &lt;#float#&gt;, &lt;#float#&gt;, &lt;#float#&gt;)];
+        
+    }
+    return &lt;#name#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9FBEB382-B7C4-4E75-B409-97D9B3BF3BCF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>初始化控件</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>hInitUI_初始化控件</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
