@@ -10,11 +10,11 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (&lt;#type#&gt;)&lt;#name#&gt;{
-    if(&lt;#name#&gt;){
-        &lt;#name#&gt; = [[&lt;#type#&gt; alloc] initWithFrame:CGRectMake(&lt;#float#&gt;, &lt;#float#&gt;, &lt;#float#&gt;, &lt;#float#&gt;)];
+    if(_&lt;#name#&gt;){
+        _&lt;#name#&gt; = [[&lt;#type#&gt; alloc] initWithFrame:CGRectMake(&lt;#float#&gt;, &lt;#float#&gt;, &lt;#float#&gt;, &lt;#float#&gt;)];
         
     }
-    return &lt;#name#&gt;;
+    return _&lt;#name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9FBEB382-B7C4-4E75-B409-97D9B3BF3BCF</string>

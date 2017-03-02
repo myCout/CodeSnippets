@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>HYCode_initBtn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(UIButton *)&lt;#name#&gt;{
+    if (_&lt;#name#&gt; == nil) {
+        _&lt;#name#&gt; = [UIButton new];
+        _&lt;#name#&gt;.backgroundColor = hColorAppColor;
+        [_&lt;#name#&gt; setTitleColor:hColorWhite forState:UIControlStateNormal];
+        _&lt;#name#&gt;.titleLabel.font = HYGFontAvenirBook_Font(16);
+        [_&lt;#name#&gt; setTitle:localizable(@"RATE US") forState:UIControlStateNormal];
+        [_&lt;#name#&gt; setCornerRadius:_&lt;#name#&gt;.height/2];
+        WS(weakSelf)
+        [_&lt;#name#&gt; jk_addActionHandler:^(NSInteger tag) {
+            
+        }];
+    }
+    return _&lt;#name#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>18BF273C-8273-49C5-AA4B-9C02C64084CD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>HYCode_initBtn</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>HYCode_initBtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

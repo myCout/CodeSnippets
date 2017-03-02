@@ -3,29 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HYCode_BottomLine</string>
+	<string>HYCode_initLab</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIImageView *)hBottomLineImageView
-{
-    if (_hBottomLineImageView == nil) {
-        _hBottomLineImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0,9.5, SCREEN_WIDTH, .5)];
-        [_hBottomLineImageView setBackgroundColor:hColorF1F1F1];
-        
+	<string>-(UILabel *)&lt;#name#&gt;{
+    if (_&lt;#name#&gt; == nil) {
+        _&lt;#name#&gt; = [UILabel new];
+        [_&lt;#name#&gt; setFont:HYGFontAvenirBook_Font(15)];
+        [_&lt;#name#&gt; setTextColor:hColor999999];
+        [_&lt;#name#&gt; setBackgroundColor:[UIColor clearColor]];
+        [_&lt;#name#&gt; setTextAlignment:NSTextAlignmentCenter];
+        _&lt;#name#&gt;.numberOfLines = 0;
     }
-    return _hBottomLineImageView;
+    return _&lt;#name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>838771A4-11A2-450B-AED4-13E167EE7FE7</string>
+	<string>752D838D-73A0-4C7D-8831-4751AD739ED1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HYCode_BottomLine</string>
+	<string>HYCode_initLab</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HY_BottomLine</string>
+	<string>HYCode_initLab</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

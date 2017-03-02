@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_initGesture</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];</string>
+	<string>UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapGesture)];
+    tapGestureRecognizer.delegate = self;
+    [self.view addGestureRecognizer:tapGestureRecognizer];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>269A914C-F527-40EC-A60A-0C9DCD325A58</string>
+	<string>1C965074-D5C1-43C5-BCF8-815E647BF50C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_initGesture</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_initGesture</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

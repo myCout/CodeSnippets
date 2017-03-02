@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_initTable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];</string>
+	<string>-(UITableView *)&lt;#name#&gt;{
+    if (_&lt;#name#&gt; == nil) {
+        _&lt;#name#&gt; = [UITableView new];
+        _&lt;#name#&gt;.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _&lt;#name#&gt;.dataSource = self;
+        _&lt;#name#&gt;.delegate = self;
+    }
+    return _&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>269A914C-F527-40EC-A60A-0C9DCD325A58</string>
+	<string>A5A9BDFF-F23E-4274-823F-9AFADA849B15</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_initTable</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_initTable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

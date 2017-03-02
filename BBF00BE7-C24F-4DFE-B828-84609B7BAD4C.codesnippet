@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_Init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];</string>
+	<string>- (instancetype)init
+{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>269A914C-F527-40EC-A60A-0C9DCD325A58</string>
+	<string>BBF00BE7-C24F-4DFE-B828-84609B7BAD4C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_Init</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_Init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

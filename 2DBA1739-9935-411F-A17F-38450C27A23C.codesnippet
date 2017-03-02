@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_property_Block</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];</string>
+	<string>@property (nonatomic,copy) &lt;#Block#&gt; &lt;#block#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>269A914C-F527-40EC-A60A-0C9DCD325A58</string>
+	<string>2DBA1739-9935-411F-A17F-38450C27A23C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_property_Block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HYCode_Img</string>
+	<string>HYCode_property_Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
